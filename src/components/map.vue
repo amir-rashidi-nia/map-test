@@ -2,8 +2,8 @@
   <div class="page">
       <NeshanMap
           defaultType="neshan"
-          mapKey="web.f656d456a7ef48f0af42912ba05da8a6"
-          serviceKey="service.0a789d697fce4b0697252fe64cb4e4b9"
+          mapKey="web.3d0e1c00a26e4727ab55d483d0bd7c85"
+          serviceKey=""
           :center="{latitude: 36.311559, longitude: 59.5870851}"
           :zoom="14"
           :poi="true"
