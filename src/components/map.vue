@@ -20,7 +20,7 @@ import {fromLonLat} from '@neshan-maps-platform/ol/proj'
 function onInit(map:Map) {
     const view = map?.getView()
     view?.animate({
-        center: olProj.fromLonLat([59.5870851, 36.311559]),
+        center: fromLonLat([59.5870851, 36.311559]),
         zoom: 11,
         duration: 1000,
     })
