@@ -7,7 +7,7 @@
           :center="{latitude: 36.311559, longitude: 59.5870851}"
           :zoom="14"
           :poi="true"
-          :traffic="true"
+          :traffic="false"
           @on-init="onInit"
       />
   </div>

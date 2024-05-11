@@ -33,7 +33,7 @@ header {
   line-height: 1.5;
 }
 main {
-  height: 30rem;
+  height: 80rem;
   width: 100%;
 }
 
