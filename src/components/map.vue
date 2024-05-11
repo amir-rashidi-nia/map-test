@@ -1,6 +1,7 @@
 <template>
   <div class="page">
       <NeshanMap
+          @on-click="clickHandler"
           defaultType="neshan"
           mapKey="web.3d0e1c00a26e4727ab55d483d0bd7c85"
           serviceKey="service.0a789d697fce4b0697252fe64cb4e4b9"
@@ -24,6 +25,10 @@ function onInit(map:Map) {
         zoom: 11,
         duration: 1000,
     })
+}
+
+function clickHandler (emits){
+    console.log(emits)
 }
 </script>
 <style>
